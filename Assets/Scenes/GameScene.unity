@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 1277959525}
   - component: {fileID: 1277959524}
   m_Layer: 5
-  m_Name: Text-Score
+  m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -566,6 +566,8 @@ MonoBehaviour:
   - {fileID: 4281915668271100455, guid: 4204d19cfff3c4ccb8cf9f930cf8ab84, type: 3}
   - {fileID: 3025375230639809761, guid: 8232c9d5147f744599d6e5deafc19cd6, type: 3}
   - {fileID: 8768147601577405303, guid: 2d27da42ea5ed4075a363cbcee0b2454, type: 3}
+  ScoreText: {fileID: 1277959524}
+  score: 0
 --- !u!4 &1495472401
 Transform:
   m_ObjectHideFlags: 0
@@ -574,7 +576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1495472399}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -711,7 +713,7 @@ GameObject:
   - component: {fileID: 2078136926}
   - component: {fileID: 2078136925}
   m_Layer: 5
-  m_Name: Text
+  m_Name: CountDownText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

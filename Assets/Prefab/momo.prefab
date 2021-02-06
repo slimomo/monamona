@@ -10,13 +10,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1191242530991967601}
   - component: {fileID: 1191242530991967614}
+  - component: {fileID: 6415538813466087253}
   m_Layer: 0
   m_Name: momo
   m_TagString: M
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1191242530991967601
 Transform:
   m_ObjectHideFlags: 0
@@ -81,3 +82,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6415538813466087253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191242530991967600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f79c5b81ee242f88eb6649bf563a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
